@@ -4,11 +4,12 @@ import { Container, Row, Col } from "react-bootstrap";
 //import aboutImg from "../../assests/images/about-us.png";
 import aboutImg from "/src/about-us.png"
 import CountUp from "react-countup";
-import "/abot.css"
+//import "./assets/abot.css"
+
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="mt-5 px-4 py-3">
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -19,25 +20,25 @@ const AboutUs = () => {
 
           <Col lg="6" md="6">
             <div className="about__content">
-              <h2>About Us</h2>
+              <h2 className="mt-sm-5 fw-bold ">About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+                Welcome to <span className="fw-bold text-warning">"CRYPTO WORLD" </span>, your gateway to mastering the world of cryptocurrencies!
+
+                Our mission is to empower individuals with the knowledge and tools they need to confidently navigate the ever-evolving landscape of blockchain technology, digital currencies, and decentralized finance (DeFi). Whether you are a curious beginner, an experienced trader, or someone exploring the potential of Web3, we are here to guide you every step of the way.
               </p>
 
-              <div className="about__counter">
+              <div className="about__counter fw-bold">
                 <div className=" d-flex gap-5 align-items-center">
                   <div className="single__counter">
-                    <span className="counter">
+                    <span className="counter fs-2">
                       <CountUp start={0} end={25} duration={2} suffix="K" />
                     </span>
 
                     <p className="counter__title">Completed Projects</p>
                   </div>
 
-                  <div className="single__counter">
-                    <span className="counter">
+                  <div className="single__counter fw-bold">
+                    <span className="counter fs-2">
                       <CountUp start={0} end={12} duration={2} suffix="M" />
                     </span>
 
@@ -45,17 +46,17 @@ const AboutUs = () => {
                   </div>
                 </div>
 
-                <div className=" d-flex gap-5 align-items-center">
+                <div className=" d-flex gap-5 align-items-center fw-bold">
                   <div className="single__counter">
-                    <span className="counter">
+                    <span className="counter fs-2">
                       <CountUp start={0} end={95} duration={2} suffix="M" />
                     </span>
 
                     <p className="counter__title">Ideas Raised Funds</p>
                   </div>
 
-                  <div className="single__counter">
-                    <span className="counter">
+                  <div className="single__counter fw-bold">
+                    <span className="counter fs-2">
                       <CountUp start={0} end={5} duration={2} suffix="K" />
                     </span>
 
