@@ -8,9 +8,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Example() {
   return (
    
-        <Navbar expand="lg" className="bg-body-tertiary navigation" >
+        <Navbar expand="lg" className="" >
         <Container>
-            <Navbar.Brand href="#home">Crypto World</Navbar.Brand>
+            <Navbar.Brand href="#home"><span className='text-warning fw-bold'>Crypto </span>World</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

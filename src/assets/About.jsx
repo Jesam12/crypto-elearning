@@ -4,12 +4,14 @@ import { Container, Row, Col } from "react-bootstrap";
 //import aboutImg from "../../assests/images/about-us.png";
 import aboutImg from "/src/about-us.png"
 import CountUp from "react-countup";
+import ReadMore from "./ReadMore";
 //import "./assets/abot.css"
+//import "./index.css"
 
 
 const AboutUs = () => {
   return (
-    <div className="mt-5 px-4 py-3">
+    <div className="mt-5 p-3">
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -65,6 +67,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+            <ReadMore/>
           </Col>
         </Row>
       </Container>

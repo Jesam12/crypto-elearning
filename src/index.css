@@ -1,0 +1,23 @@
+.curri {background: hsla(0, 0%, 4%, 1);
+
+background: linear-gradient(135deg, hsla(0, 0%, 4%, 1) 39%, hsla(33, 9%, 39%, 1) 98%, hsla(27, 90%, 59%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(0, 0%, 4%, 1) 39%, hsla(33, 9%, 39%, 1) 98%, hsla(27, 90%, 59%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(0, 0%, 4%, 1) 39%, hsla(33, 9%, 39%, 1) 98%, hsla(27, 90%, 59%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0A0A0A", endColorstr="#6D655B", GradientType=1 );
+
+}
+
+h3{
+  background: hsla(44, 89%, 68%, 1);
+
+background: linear-gradient(135deg, hsla(44, 89%, 68%, 1) 1%, hsla(51, 71%, 14%, 1) 18%, hsla(0, 0%, 0%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(44, 89%, 68%, 1) 1%, hsla(51, 71%, 14%, 1) 18%, hsla(0, 0%, 0%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(44, 89%, 68%, 1) 1%, hsla(51, 71%, 14%, 1) 18%, hsla(0, 0%, 0%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D066", endColorstr="#3B340A", GradientType=1 );
+}
