@@ -4,6 +4,7 @@ import Navbar from './assets/Navbar'
 //import AboutUs from '../../Online-Educational-Website/src/components/About-us/AboutUs'
 import About from "./assets/About"
 import Coriculum from './Coriculum'
+import VideoGallery from './assets/VideoGallery'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <About/>
       <Coriculum/>
+      <VideoGallery/>
    </div>
   )
 }
